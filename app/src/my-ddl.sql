@@ -17,6 +17,7 @@ CREATE TABLE locations (
     PRIMARY KEY (id)
 );
 
+
 INSERT INTO locations (id, street, intersection, latitude, longitude) VALUES
 (1, 'Main St', 'Main St & 1st Ave', 40.712776, -74.005974),
 (2, 'Elm St', 'Elm St & 2nd Ave', 34.052235, -118.243683),
